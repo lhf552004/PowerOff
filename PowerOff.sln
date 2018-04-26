@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simulater", "Simulater\Simulater.csproj", "{26E2C390-1603-498E-8341-34060FD95FE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerOff", "PowerOff\PowerOff.csproj", "{D63DDA45-55DA-4AE4-8D96-B9E1D32424D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26E2C390-1603-498E-8341-34060FD95FE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26E2C390-1603-498E-8341-34060FD95FE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26E2C390-1603-498E-8341-34060FD95FE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26E2C390-1603-498E-8341-34060FD95FE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D63DDA45-55DA-4AE4-8D96-B9E1D32424D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D63DDA45-55DA-4AE4-8D96-B9E1D32424D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D63DDA45-55DA-4AE4-8D96-B9E1D32424D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D63DDA45-55DA-4AE4-8D96-B9E1D32424D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E514C74-3CF1-43CE-968B-BE91EAB324F2}
+	EndGlobalSection
+EndGlobal
