@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    xmlns:tools="http://schemas.android.com/tools"  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"  
+    android:paddingLeft="0dp"  
+    android:paddingRight="0dp"  
+    android:paddingTop="0dp"  
+    android:paddingBottom="0dp"  
+    tools:context=".MainActivity"  
+    android:orientation="vertical"  
+    android:background="#1E90FF">  
+   
+        
+    <EditText  
+        android:id="@+id/IPText"  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        />
+
+        <Button
+            android:id="@+id/PowerOffButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:enabled="true"
+            android:onClick="onClick"
+            android:text="PowerOff" />
+     <TextView
+        android:id="@+id/InfoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="关闭电脑"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        
+    </LinearLayout>  
+
+
+    
+
+</android.support.constraint.ConstraintLayout>
